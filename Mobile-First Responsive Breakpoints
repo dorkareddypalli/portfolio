@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+
+  .hero-content {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .hero-text {
+    text-align: left;
+  }
+
+  .about-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

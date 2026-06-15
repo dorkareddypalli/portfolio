@@ -1,0 +1,35 @@
+@import url("variables.css");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: var(--transition);
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(90%, var(--container));
+  margin-inline: auto;
+}
+
+section {
+  padding: 5rem 0;
+}

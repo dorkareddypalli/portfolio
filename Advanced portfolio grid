@@ -1,0 +1,20 @@
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.project-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform .3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-info {
+  padding: 1.5rem;
+}

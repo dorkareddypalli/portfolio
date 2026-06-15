@@ -1,0 +1,10 @@
+@media (min-width: 1440px) {
+
+  .hero-text h1 {
+    font-size: 5rem;
+  }
+
+  .container {
+    width: min(85%, 1400px);
+  }
+}

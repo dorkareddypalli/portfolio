@@ -1,0 +1,14 @@
+portfolio/
+│
+├── index.html
+├── css/
+│   ├── style.css
+│   ├── variables.css
+│   └── responsive.css
+│
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+└── js/
+    └── theme.js

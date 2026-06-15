@@ -1,0 +1,29 @@
+:root {
+  /* Colors */
+  --primary: #2563eb;
+  --secondary: #0f172a;
+  --accent: #38bdf8;
+
+  --bg: #ffffff;
+  --surface: #f8fafc;
+  --text: #1e293b;
+  --text-light: #64748b;
+
+  /* Effects */
+  --radius: 16px;
+  --shadow: 0 10px 30px rgba(0,0,0,.08);
+
+  /* Layout */
+  --container: 1200px;
+  --transition: all .3s ease;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --text: #f8fafc;
+  --text-light: #94a3b8;
+
+  --shadow: 0 10px 30px rgba(0,0,0,.4);
+}

@@ -1,0 +1,11 @@
+.about-content {
+  display: grid;
+  gap: 2rem;
+}
+
+.about-card {
+  background: var(--surface);
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
